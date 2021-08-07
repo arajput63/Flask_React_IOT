@@ -1,0 +1,1 @@
+Add data files here - CSV, strings, spreadsheets and alike. We can interface with this directory when constructing database files from the main application.

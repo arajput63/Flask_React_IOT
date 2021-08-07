@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}"> -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/mermaid.css') }}"> -->
+  <!-- <script src="{{ url_for('static', filename='js/bootstrap.bundle.js') }}"></script> -->
+  <!-- <script src="{{ url_for('static', filename='js/plotly-latest.min.js') }}"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.3.1/plotly.min.js" integrity="sha512-Wxp+ZFyiVaCvGlFFlj5NMY6hmzGBnasVpNnkOLX35DsaCRi5hn0PjTIz20mCkGHI+czPfM9E0jTlbq3FtjYSDA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- <script src="{{ url_for('static', filename='js/jquery-3.5.1.js') }}"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- <script src="{{ url_for('static', filename='js/socket.io_3.1.0.js') }}"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.js" integrity="sha512-PU5S6BA03fRv1Q5fpwXjg5nlRrgdoguZ74urFInkbABMCENyx5oP3hrDzYMMPh3qdLdknIvrGj3yqZ4JuU7Nag==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+</head>
+<body>
+  <header id="main-header">
+    <h1>Nurse Call Data Visualiser, by AIPal Ltd.</h1>
+  </header>
+
+  <div class="container">
+    <div class="topnav">
+      <a href="/"><i class="fa fa-fw fa-home"></i> Home</a>
+      <a href="login"><i class="fa fa-fw fa-user"></i> Login</a>
+    </div>
+    {% block body %}{% endblock %}
+  </div>
+  
+</body>
+<footer>
+  <script src="{{ url_for('static', filename='js/client.js') }}"></script>
+</footer>
+</html>

@@ -1,0 +1,24 @@
+:root {
+    --colour_main: #052141;
+    --colour_blend: #006e8d3d;
+    --colour_text: honeydew;
+    --colour_hover: rgb(168, 216, 255);
+  }
+
+  .card-style {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .column {
+    display: grid;
+  }
