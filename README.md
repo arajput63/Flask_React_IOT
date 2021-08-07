@@ -7,21 +7,15 @@ A full-stack web application (with integrated IoT communication) that uses `Pyth
 
 
 
-
 ### Useful links -->
 
-
-Javascript library source: https://cdnjs.com/
-
+[Javascript library source](https://cdnjs.com/)
 
 [Install npm (need for react.js)](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-
 [Documentation for Python-Flask](https://flask.palletsprojects.com/en/2.0.x/)
 
-
 [Documentation for React.js](https://reactjs.org/)
-
 
 
 
@@ -29,39 +23,22 @@ Javascript library source: https://cdnjs.com/
 
 
 Create a new python environment: 
-
 ### `python3 -m venv venv`
 
-
-
 Activate the environment: 
-
 ### `. venv/bin/activate`
 
-
-
 Install python dependances: 
-
 ### `pip install -r requirements.txt`
 
-
-
 Run backend API: 
-
 ### `flask run`
 
-
-
 Install node modules and dependancies: 
-
 ### `cd frontend`, `npm install package.json`
 
-
-
 Run react.js frontend: 
-
 ### `cd frontend`, `npm start`
-
 
 
 # Amar Rajput, AIPal Ltd
