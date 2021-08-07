@@ -7,13 +7,16 @@ A full-stack web application (with integrated IoT communication) that uses pytho
 Useful links -->
 
 
+Javascript library source: https://cdnjs.com/
+
+
 Install npm (need for react.js): https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 
-Documentation for Flask: https://flask.palletsprojects.com/en/2.0.x/
+Documentation for Python-Flask: https://flask.palletsprojects.com/en/2.0.x/
 
 
-Javascript libraries: https://cdnjs.com/
+Documentation for React.js: https://reactjs.org/
 
 
 Useful commands -->
