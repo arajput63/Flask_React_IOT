@@ -1,4 +1,4 @@
-# flask_react_base
+## flask/react - base project (boilerplate)
 
 
 A full-stack web application (with integrated IoT communication) that uses `Python-Flask` on the backend (as an API) and `React.js` with `Redux` on the front end. This is a general application that can serve as boilerplate code, ready to be moulded into projects that serve a more specific purpose. 
@@ -11,7 +11,7 @@ A full-stack web application (with integrated IoT communication) that uses `Pyth
 [Javascript library source](https://cdnjs.com/), [Install npm (for react.js)](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), [Documentation for Python-Flask](https://flask.palletsprojects.com/en/2.0.x/), [Documentation for React.js](https://reactjs.org/)
 
 
-### Useful commands -->
+### Useful commands (from root directory) -->
 
 Create a new python environment: `python3 -m venv venv`
 
@@ -26,4 +26,4 @@ Install node modules and dependancies: `cd frontend`, `npm install package.json`
 Run react.js frontend: `cd frontend`, `npm start`
 
 
-# Amar Rajput, AIPal Ltd
+## Amar Rajput, AIPal Ltd
