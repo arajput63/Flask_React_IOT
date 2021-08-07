@@ -6,6 +6,8 @@ A full-stack web application (with integrated IoT communication) that uses `Pyth
 `Template`/`Static` directories included in flask API for debugging and development purposes and can be ignored if the developer chooses to use react for front end as I have done here. The database is a placeholder and is only an example for CRUD and comms. SocketIO example will work with raspberryPI. Other IoT devices can be configured to communiate via `HTTP` or `MQTT`.
 
 
+
+
 ### Useful links -->
 
 
@@ -21,6 +23,8 @@ Javascript library source: https://cdnjs.com/
 [Documentation for React.js](https://reactjs.org/)
 
 
+
+
 ### Useful commands -->
 
 
@@ -29,9 +33,11 @@ Create a new python environment:
 ### `python3 -m venv venv`
 
 
+
 Activate the environment: 
 
 ### `. venv/bin/activate`
+
 
 
 Install python dependances: 
@@ -39,9 +45,11 @@ Install python dependances:
 ### `pip install -r requirements.txt`
 
 
+
 Run backend API: 
 
 ### `flask run`
+
 
 
 Install node modules and dependancies: 
@@ -49,9 +57,11 @@ Install node modules and dependancies:
 ### `cd frontend`, `npm install package.json`
 
 
+
 Run react.js frontend: 
 
 ### `cd frontend`, `npm start`
+
 
 
 # Amar Rajput, AIPal Ltd
