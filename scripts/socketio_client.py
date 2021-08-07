@@ -1,4 +1,4 @@
-import socketio
+import socketio #to install dependency with pip, use - pip install "python-socketio[client]"
 import datetime
 import time
 
