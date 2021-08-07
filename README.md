@@ -37,5 +37,4 @@ Install node modules and dependancies: 'cd frontend', 'npm install package.json'
 Run react.js frontend: 'cd frontend', 'npm start'
 
 
-Amar Rajput
-AIPal Ltd
+# Amar Rajput, AIPal Ltd
